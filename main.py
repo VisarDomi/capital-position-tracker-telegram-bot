@@ -12,7 +12,7 @@ def pprint(data):
     return json.dumps(data, indent=4)
 
 logger = logging.getLogger("MyLogger")
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.ERROR)
 
 if not os.path.exists('logs'):
     os.makedirs('logs')
