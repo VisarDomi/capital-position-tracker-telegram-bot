@@ -60,6 +60,8 @@ python main.py
 
 The script will start polling Capital for changes to your position and post them on the specified Telegram group.
 
+The next time you want to run this script in windows, run the file start-script.ps1 with powershell, by right-clicking and selecting run with powershell.
+
 ## Logging
 
 The script logs all its activity and saves it into daily log files in the logs folder. The log files are named `app.log.YYYYMMDD`, where `YYYYMMDD` is the date.
